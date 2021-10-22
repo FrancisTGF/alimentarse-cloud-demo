@@ -3,4 +3,6 @@ spring:
   cloud:
     config:
       enabled: true
-      uri: http://127.0.0.1:8080
+      uri: http://127.0.0.1:8080  profiles:    active: 
+    - produccion
+    - test
